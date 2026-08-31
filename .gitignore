@@ -1,0 +1,8 @@
+node_modules/
+logs/
+_workspace/
+.env
+.env.*
+!.env.example
+*.log
+*.bak*

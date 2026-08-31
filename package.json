@@ -1,0 +1,16 @@
+{
+  "name": "antigravity-openai-bridge",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OpenAI-compatible HTTP server over the Antigravity ACP CLI: real SSE streaming, a text tool-calling bridge, and a session anchor that survives restarts. Zero dependencies.",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {}
+}
